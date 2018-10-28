@@ -22,7 +22,7 @@
 
         <div class="side-bar-bottom">
             <ul>
-                <li><a href="">INBOX</a></li>
+                <li><a href="javascript:load('component/inbox.php')">INBOX</a></li>
                 <li><a href="">Borradores</a></li>
                 <li><a href="">Enviados</a></li>
                 <li><a href="">Papelera</a></li>
@@ -67,9 +67,11 @@
 </body>
 
 <script>    
-    function cargar(url)
+    function load(url)
     {
         $('#content').load(url);
     }
+
+    load('component/inbox.php');
 </script>
 </html>
