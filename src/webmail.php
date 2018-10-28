@@ -67,9 +67,15 @@
 </body>
 
 <script>    
+<<<<<<< HEAD
     function cargar(url)
     {
         $('#content').load(url);
     }
+=======
+    $(document).ready(function() {
+        $('#content').load('./component/compose.html');
+    });
+>>>>>>> 78e94c17296a651799cf7c4a00dca01a7c211c91
 </script>
 </html>
