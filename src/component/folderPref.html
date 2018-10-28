@@ -1,0 +1,225 @@
+<center>
+    <br>
+    <br>
+    <table  class="options" bgcolor="#dcdcdc" align="center" width="95%" cellpadding="1" cellspacing="0" border="0">
+
+            <tbody><tr>
+            
+            <td align="center">
+            <b>Options - Folder Preferences</b><br>
+            <table width="100%" cellpadding="5" cellspacing="0" border="0">
+            
+            <tbody><tr>
+            
+            <td bgcolor="#ffffff" align="center">
+            
+            <form action="options.php" method="POST" name="f">
+            <input type="hidden" value="YNPjE6QtNPgD" name="smtoken">
+            <input type="hidden" name="optpage" value="folder"><input type="hidden" name="optmode" value="submit"><table width="100%" cellpadding="2" cellspacing="0" border="0">
+            
+            <tbody><tr>
+            
+            <td align="left">
+            
+            </td></tr><tr>
+            <td align="center" valign="middle" colspan="2" nowrap=""><b>Special Folder Options</b></td>
+            </tr>
+            
+            <tr>
+            <td align="right" valign="middle">Folder Path:</td>
+            <td align="left"><input type="text" name="new_folder_prefix" value="" size="38"> 
+            </td>
+            </tr>
+            
+            <tr>
+            <td align="right" valign="middle">Trash Folder:</td>
+            <td align="left"><select name="new_trash_folder">
+            <option value="none">[ Do not use Trash ]</option>
+            <option value="INBOX">INBOX</option>
+            <option value="Borradores">Borradores</option>
+            <option value="Enviados">Enviados</option>
+            <option value="Papelera" selected="selected">Papelera</option>
+            </select>
+            </td>
+            </tr>
+            
+            <tr>
+            <td align="right" valign="middle">Draft Folder:</td>
+            <td align="left"><select name="new_draft_folder">
+            <option value="none">[ Do not use Drafts ]</option>
+            <option value="INBOX">INBOX</option>
+            <option value="Borradores" selected="selected">Borradores</option>
+            <option value="Enviados">Enviados</option>
+            <option value="Papelera">Papelera</option>
+            </select>
+            </td>
+            </tr>
+            
+            <tr>
+            <td align="right" valign="middle">Sent Folder:</td>
+            <td align="left"><select name="new_sent_folder">
+            <option value="none">[ Do not use Sent ]</option>
+            <option value="INBOX">INBOX</option>
+            <option value="Borradores">Borradores</option>
+            <option value="Enviados" selected="selected">Enviados</option>
+            <option value="Papelera">Papelera</option>
+            </select>
+            </td>
+            </tr>
+            
+            <tr><td align="left" colspan="2">&nbsp;</td>
+            </tr>
+            
+            <tr>
+            <td align="center" valign="middle" colspan="2" nowrap=""><b>Folder List Options</b></td>
+            </tr>
+            
+            <tr>
+            <td align="right" valign="middle">Location of Folder List:</td>
+            <td align="left"><select name="new_location_of_bar">
+            <option value="" selected="selected">Left</option>
+            <option value="right">Right</option>
+            </select>
+            </td>
+            </tr>
+            
+            <tr>
+            <td align="right" valign="middle">Width of Folder List:</td>
+            <td align="left"><select name="new_left_size">
+            <option value="100">100 pixels</option>
+            <option value="110">110 pixels</option>
+            <option value="120">120 pixels</option>
+            <option value="130">130 pixels</option>
+            <option value="140">140 pixels</option>
+            <option value="150" selected="selected">150 pixels</option>
+            <option value="160">160 pixels</option>
+            <option value="170">170 pixels</option>
+            <option value="180">180 pixels</option>
+            <option value="190">190 pixels</option>
+            <option value="200">200 pixels</option>
+            <option value="210">210 pixels</option>
+            <option value="220">220 pixels</option>
+            <option value="230">230 pixels</option>
+            <option value="240">240 pixels</option>
+            <option value="250">250 pixels</option>
+            <option value="260">260 pixels</option>
+            <option value="270">270 pixels</option>
+            <option value="280">280 pixels</option>
+            <option value="290">290 pixels</option>
+            <option value="300">300 pixels</option>
+            </select>
+            </td>
+            </tr>
+            
+            <tr>
+            <td align="right" valign="middle">Auto Refresh Folder List:</td>
+            <td align="left"><select name="new_left_refresh">
+            <option value="none">Never</option>
+            <option value="30">30 Seconds</option>
+            <option value="60">1 Minute</option>
+            <option value="120">2 Minutes</option>
+            <option value="180">3 Minutes</option>
+            <option value="300" selected="selected">5 Minutes</option>
+            <option value="600">10 Minutes</option>
+            <option value="1200">20 Minutes</option>
+            </select>
+            </td>
+            </tr>
+            
+            <tr>
+            <td align="right" valign="middle">Enable Unread Message Notification:</td>
+            <td align="left"><select name="new_unseen_notify">
+            <option value="1">No Notification</option>
+            <option value="2" selected="selected">Only INBOX</option>
+            <option value="3">All Folders</option>
+            </select>
+            </td>
+            </tr>
+            
+            <tr>
+            <td align="right" valign="middle">Unread Message Notification Type:</td>
+            <td align="left"><select name="new_unseen_type">
+            <option value="1" selected="selected">Only Unseen</option>
+            <option value="2">Unseen and Total</option>
+            </select>
+            </td>
+            </tr>
+            
+            <tr>
+            <td align="right" valign="middle"><label for="new_collapse_folders">Enable Collapsable Folders</label>:</td>
+            <td align="left"><input type="checkbox" name="new_collapse_folders" id="new_collapse_folders" value="1" checked="checked">&nbsp;<label for="new_collapse_folders"></label></td>
+            </tr>
+            
+            <tr>
+            <td align="right" valign="middle"><label for="new_unseen_cum">Enable Cumulative Unread Message Notification</label>:</td>
+            <td align="left"><input type="checkbox" name="new_unseen_cum" id="new_unseen_cum" value="1">&nbsp;<label for="new_unseen_cum"></label></td>
+            </tr>
+            
+            <tr>
+            <td align="right" valign="middle">Show Clock on Folders Panel:</td>
+            <td align="left"><select name="new_date_format">
+            <option value="0">International date and time</option>
+            <option value="1">American date and time</option>
+            <option value="2">European date and time</option>
+            <option value="3" selected="selected">Show weekday and time</option>
+            <option value="4">Show time with seconds</option>
+            <option value="5">Show time</option>
+            <option value="6">No Clock</option>
+            </select>
+            </td>
+            </tr>
+            
+            <tr>
+            <td align="right" valign="middle">Hour Format:</td>
+            <td align="left"><select name="new_hour_format">
+            <option value="2" selected="selected">12-hour clock</option>
+            <option value="1">24-hour clock</option>
+            </select>
+            </td>
+            </tr>
+            
+            <tr>
+            <td align="right" valign="middle">Memory Search:</td>
+            <td align="left"><select name="new_search_memory">
+            <option value="0" selected="selected">Disabled</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            </select>
+            </td>
+            </tr>
+            
+            <tr><td align="left" colspan="2">&nbsp;</td>
+            </tr>
+            
+            <tr>
+            <td align="center" valign="middle" colspan="2" nowrap=""><b>Folder Selection Options</b></td>
+            </tr>
+            
+            <tr>
+            <td align="right" valign="middle">Selection List Style:</td>
+            <td align="left"><select name="new_mailbox_select_style">
+            <option value="0">Long: "Folder/Subfolder"</option>
+            <option value="1" selected="selected">Indented: "&nbsp;&nbsp;&nbsp;&nbsp;Subfolder"</option>
+            <option value="2">Delimited: ".&nbsp;Subfolder"</option>
+            </select>
+            </td>
+            </tr>
+            
+            <tr><td align="left" colspan="2">&nbsp;</td>
+            </tr>
+            
+            <tr><td align="right" colspan="2"><input type="submit" value="Submit" name="submit_folder">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            
+            </tbody></table></form></td></tr>
+            </tbody></table>
+            </td></tr>
+            </tbody></table>
+</center>

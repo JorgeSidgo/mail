@@ -1,0 +1,49 @@
+<center>
+    <br>
+    <br>
+    <div align="center"><a href="#AddAddress">Add address</a></div>
+
+    <form action="addressbook.php" method="post" name="f_add" >
+            <input type="hidden" value="fsAdC0ySttWy" name="smtoken">
+            <table align="center" width="95%"><tbody><tr><td bgcolor="#dcdcdc" align="center">
+            <strong>Add to Personal address book</strong>
+            </td>
+            </tr>
+            </tbody></table>
+            
+            <table  align="center" border="0" cellpadding="1" width="90%"><tbody><tr><td bgcolor="#ffffff" align="right">Nickname:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="addaddr[nickname]" value="" size="15">
+             <small>Must be unique</small></td>
+            </tr>
+            
+            <tr><td bgcolor="#ffffff" align="right">E-mail address:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="addaddr[email]" value="" size="45">
+            </td>
+            </tr>
+            
+            <tr><td bgcolor="#ffffff" align="right">First name:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="addaddr[firstname]" value="" size="45">
+            </td>
+            </tr>
+            
+            <tr><td bgcolor="#ffffff" align="right">Last name:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="addaddr[lastname]" value="" size="45">
+            </td>
+            </tr>
+            
+            <tr><td bgcolor="#ffffff" align="right">Additional info:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="addaddr[label]" value="" size="45">
+            </td>
+            </tr>
+            
+            <tr><td bgcolor="#ffffff" align="center" colspan="2"><input type="hidden" name="backend" value="1">
+            </td>
+            </tr>
+            
+            <tr><td bgcolor="#ffffff" align="center" colspan="2"><input type="submit" name="addaddr[SUBMIT]" value="Add address">
+            </td>
+            </tr>
+            </tbody></table>
+            
+            </form>
+</center>

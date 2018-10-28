@@ -42,13 +42,9 @@
                         <div class="menu-left">
                             <ul>
                                 <li><a href="javascript:load('component/compose.html')">Compose</a></li>
-                                <li><a href="">Adresses</a></li>
-                                <li><a href="">Folders</a></li>
+                                <li><a href="javascript:load('component/addresses.html')">Adresses</a></li>
+                                <li><a href="javascript:load('component/folders.html')">Folders</a></li>
                                 <li><a href="javascript:load('component/options.html')">Options</a></li>
-                                <li><a href="">Search</a></li>
-                                <li><a href="">Help</a></li>
-                                <li><a href="">Fetch</a></li>
-                                <li><a href="">Calendar</a></li>
                             </ul>
                         </div>
                         <div class="menu-right">
