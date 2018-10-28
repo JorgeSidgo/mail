@@ -100,8 +100,14 @@ Class User extends Conexion{
         $_query = "select * from users where userName = '".$this->userName."' and pass = '".$this->pass."'";
 
         $resultado = $this->conectar()->query($_query);
-/*         var_dump($resultado);
-        die(); */
+
+        $user = $resultado->fetch_assoc();
+
+        session_start();
+        $_SESSION["idUser"] = $user["id"];
+        $_SESSION["email"] = $user["email"];
+        $_SESSION["userName"] = $user["userName"];
+
         if(!$resultado) {
             header("location: ../src/redirect.php");
         } else 
