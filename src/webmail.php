@@ -41,7 +41,7 @@
                     <div class="menu-bar">
                         <div class="menu-left">
                             <ul>
-                                <li><a href="">Compose</a></li>
+                                <li><a href="javascript:load('component/compose.html')">Compose</a></li>
                                 <li><a href="">Adresses</a></li>
                                 <li><a href="">Folders</a></li>
                                 <li><a href="">Options</a></li>
