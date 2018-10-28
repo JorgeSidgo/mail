@@ -137,8 +137,14 @@ class Mess extends Conexion {
         $_query = "select * from mess where para = '".$this->para."'";
         $resultado = $this->conectar()->query($_query);
 
-        while($correo = $resultado->fetch_assoc()) {
-            echo '<tr><td>'.$correo["de"].'</td><td>'.$correo["today"].'</td><td>'.$correo["subj"].'</td></tr>';
+        if($resultado->num_rows > 0)
+        {
+            while($correo = $resultado->fetch_assoc()) {
+                echo '<tr><td>'.$correo["de"].'</td><td>'.$correo["today"].'</td><td>'.$correo["subj"].'</td></tr>';
+            }
+        } else {
+            echo '<tr><td colspan="3" style="text-align: center;">This Folder is Empty</td></tr>';
         }
+
     }
 }

@@ -34,7 +34,7 @@
     <div class="top-bar">
         <table style="width: 100%;">
             <tr>
-                <td style="text-align:right; background: #bcbcbc"><a href=""><b>Sign Out</b></a></td>
+                <td style="text-align:right; background: #bcbcbc"><a href="logout.php"><b>Sign Out</b></a></td>
             </tr>
             <tr>
                 <td>
