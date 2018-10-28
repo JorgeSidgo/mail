@@ -67,8 +67,9 @@
 </body>
 
 <script>    
-    $(document).ready(function() {
-        $('#content').load('compose.html');
-    });
+    function cargar(url)
+    {
+        $('#content').load(url);
+    }
 </script>
 </html>
