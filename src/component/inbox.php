@@ -3,3 +3,7 @@
         <td style="text-align: right">Viewing Messages</td>
     </tr>
 </table>
+
+<table style="width: 100%;">
+
+</table>
