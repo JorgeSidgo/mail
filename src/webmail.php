@@ -68,7 +68,7 @@
 
 <script>    
     $(document).ready(function() {
-        $('#content').load('compose.html');
+        $('#content').load('./component/compose.html');
     });
 </script>
 </html>
