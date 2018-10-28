@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar {
+    height: 100vh;
+    background: #A1B8C8;
+    width: 10%;
+    min-width: 100px;
+    left: 0;
+    position: absolute;
+    border-right: 1px solid #000;
+}
+
+.right {
+    height: 100vh;
+    position: relative;
+    float: right;
+    width: 90%;
+    background: rgba(0,0,0,0.2);
+}
+
+.top-bar {
+    width: 100%;
+}
+
+.menu-bar {
+    width: 100%;
+}
+
+.menu-left {
+    background: #eee;
+    float: left;
+}
+.menu-right {
+    /* background: #333; */
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+
+#content {
+
+}
